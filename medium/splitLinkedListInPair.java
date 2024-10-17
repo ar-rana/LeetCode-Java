@@ -10,7 +10,7 @@ package medium;
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class splitListInPair {
     public ListNode[] splitListToParts(ListNode head, int k) {
         ListNode[] res = new ListNode[k];
         if(head==null) return res;

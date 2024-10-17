@@ -2,7 +2,7 @@ package medium;
 
 // we remove the check for edge case to make the programe mor erobust 
 // time complexity remains same at : O(n^2)
-class Solution {
+class longestPalindromeSubstring {
     public static String longestPalindrome(String s) {
         int max = 0;
         int l = 0;

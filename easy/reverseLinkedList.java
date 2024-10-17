@@ -1,28 +1,28 @@
 //  * Definition for singly-linked list.
-class reverseLinkedList {
+class LinkedList {
     int val;
-    reverseLinkedList next;
+    LinkedList next;
 
-    reverseLinkedList() {
+    LinkedList() {
     }
 
-    reverseLinkedList(int val) {
+    LinkedList(int val) {
         this.val = val;
     }
 
-    reverseLinkedList(int val, reverseLinkedList next) {
+    LinkedList(int val, LinkedList next) {
         this.val = val;
         this.next = next;
     }
 }
 
-class Solution {
-    public reverseLinkedList reverseList(reverseLinkedList head) {
+class reverseLinkedListSolution {
+    public LinkedList reverseList(LinkedList head) {
         if (head == null || head.next == null)
             return head;
-        reverseLinkedList p1 = new reverseLinkedList();
-        reverseLinkedList p2 = head;
-        reverseLinkedList next;
+        LinkedList p1 = new LinkedList();
+        LinkedList p2 = head;
+        LinkedList next;
         while (p2 != null) {
             next = p2.next;
             p2.next = p1;

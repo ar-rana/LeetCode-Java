@@ -2,7 +2,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+class romanToInteger {
     public int romanToInt(String s) {
         Map<Character, Integer> m = new HashMap<>();
         m.put('I', 1);

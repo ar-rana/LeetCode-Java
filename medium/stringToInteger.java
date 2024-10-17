@@ -1,7 +1,7 @@
 package medium;
 
 // much faster solution 
-class Solution {
+class stringToInteger {
     public int myAtoi(String s) {
         if ( s == null)
             return 0;

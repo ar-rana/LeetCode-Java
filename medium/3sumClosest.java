@@ -2,7 +2,7 @@ package medium;
 
 import java.util.Arrays;
 
-class Solution {
+class threeSumClosestSolution {
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
         int steps = Integer.MAX_VALUE;
